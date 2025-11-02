@@ -25,5 +25,12 @@ The front-end of the application was built using XML elements, icons, and images
 
 For the FoodBunny ChatBot, an AIMLAPI API key was used. An OpenAIHelper was created to write the code linking the application with the key; the key was then pasted in the ChatBot fragment, where the OpenAIHelper class was called. 
 
+## Lessons Learned
+
+* This was my first personal project, and I created it to solve a problem that most of us deal with: struggling with deciding on which recipe to cook, with whatever available ingredients we have on hand. It also gives users a chance to share their own recipes, and modify it according to whatever changes they might have made to produce a better result. 
+* Integrating the AI FoodBunny ChatBot was challenging since OpenAI required a paid verification. So I decided to use AI/ML instead, which is free, and integrated the AI model into the FoodBunny application through a generated API key. 
+* This project gave me the chance to improve and polish my Java skills, after my CityCycle Rental app. I learnt to improve my XML layout and add new features, including adding/removing favourites, deleting functions, and logging out.
+
+
 
 
