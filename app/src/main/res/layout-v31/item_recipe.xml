@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+    
+    <ImageView
+        android:id="@+id/imgRecipe"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_corn_salad"
+        android:background="@drawable/bg_image"
+        android:clipToOutline="true"
+        android:contentDescription="@string/item_recipe_img_desc" />
+
+    <TextView
+        android:id="@+id/tvRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="@string/item_recipe_name"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+</LinearLayout>

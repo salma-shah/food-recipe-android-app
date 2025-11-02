@@ -1,0 +1,117 @@
+<resources>
+    <!--    these are for login + sign up pages-->
+    <string name="app_name">FoodBunny</string>
+    <string name="app_icon">A bunny eating a carrot.</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_welcome">Welcome!</string>
+    <string name="txt_welcome_back">Welcome Back!</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_login">Already have an account? <b>Login</b></string>
+    <string name="txt_signup">Don\'t have an account?<b> Sign up</b></string>
+
+    <!--navigation bar-->
+    <string name="navbar_home">Home</string>
+    <string name="navbar_chatbot">ChatBot</string>
+    <string name="navbar_Favourites">Favourites</string>
+    <string name="navbar_add_recipe">Add Recipe</string>
+    <string name="navbar_profile">Profile</string>
+
+    <!-- home page -->
+    <string name="txt_home_greeting">Hi, </string>
+    <string name="txt_home_username">Moon</string>
+    <string name="txt_home_msg">Are you hungry?</string>
+    <string name="txt_home_title">Bunny\'s Faves</string>
+    <string name="search_bar">Search…</string>
+
+    <string name="cat_breakfast">Breakfast</string>
+    <string name="cat_bevs">Beverages</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_desserts">Desserts</string>
+    <string name="cat_dinner">Dinner</string>
+
+    <!-- recipe details page -->
+    <string name="recipe_caption">Caption</string>
+    <string name="recipe_servings">Servings</string>
+    <string name="recipe_prep">Prep Time</string>
+    <string name="recipe_ing">Ingredients</string>
+    <string name="recipe_direction">Directions</string>
+    <string name="recipe_prep_hr">20 MINUTES</string>
+    <string name="recipe_prep_person">1 PERSON</string>
+    <string name="recipe_comments">Comments (I)</string>
+    <string name="recipe_comments_user">Write your thoughts…</string>
+    <string name="recipe_comments_username">Username</string>
+    <string name="recipe_comments_date">Date Posted</string>
+    <string name="recipe_comments_like">Like</string>
+    <string name="recipe_comments_likes">10 Like</string>
+    <string name="recipe_comments_reply">Reply</string>
+    <string name="recipe_comments_comment">Really nice recipe. I added a boiled egg, made it much more filling.</string>
+
+    <!-- fav page -->
+    <string name="txt_fav_title">Favourites</string>
+    <string name="txt_fav_name">Fav Recipe Name</string>
+
+    <!-- profile page -->
+    <string name="txt_profile_title">Your Profile</string>
+    <string name="hint_edit_username">Edit your Username…</string>
+    <string name="hint_edit_email">Edit your Email…</string>
+    <string name="hint_edit_password">Edit your Password…</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="txt_edit">Edit Your Recipes</string>
+
+    <!-- chatbot page -->
+    <string name="txt_chatbot_title">Food Bunny</string>
+
+    <!-- item strings -->
+    <string name="item_recipe_img_desc">Recipe Image</string>
+    <string name="item_recipe_name">Recipe Title</string>
+    <string name="item_fav_recipe_img_desc">Fav Recipe Image</string>
+    <string name="item_fav_recipe_name">Fav Recipe Title</string>
+
+    <!-- add recipe page-->
+    <string name="add_recipe_ing">Add ingredients (ENTER for next)…</string>
+    <string name="add_recipe_direction">Add directions (ENTER for next)…</string>
+    <string name="add_recipe_servings">ADD SERVINGS…</string>
+    <string name="add_recipe_prep_time">ADD PREP TIME…</string>
+    <string name="add_recipe_upload">Upload</string>
+
+    <!-- edit recipes page -->
+    <string name="edit_recipe_title">Recipes by You</string>
+    <string name="edit_recipe_your_recipes">This is where you can modify or delete any of <b><i>your recipes!</i></b></string>
+    <string name="edit_recipe_comments">20 Comments</string>
+    <string name="edit_recipe_date_posted">Posted on 25/08/2025</string>
+
+    <!-- chatbot  page -->
+    <string name="chatbot_message">Type your message here…</string>
+
+    <!-- empty layout my recipes page -->
+    <string name="empty_layout_my_recipe_text">Nothing here! Upload recipes to view them here!</string>
+
+    <!-- empty layout favs page -->
+    <string name="empty_layout_fav_text">Nothing here! Favourite recipes to view them here!</string>
+
+    <!-- array for food categories-->
+    <string-array name="array_categories">
+        <item>Beverage</item>
+        <item>Breakfast</item>
+        <item>Dessert</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+    <!-- array for food types -->
+    <string-array name="array_types">
+        <item>Dairy</item>
+        <item>Easy to Make</item>
+        <item>Healthy</item>
+        <item>Overnight</item>
+        <item>Seafood</item>
+        <item>Vegan</item>
+    </string-array>
+</resources>

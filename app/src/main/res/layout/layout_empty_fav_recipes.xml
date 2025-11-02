@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:visibility="visible"
+    android:id="@+id/viewFavEmpty"
+    android:background="@color/bg_colour">
+
+    <ImageView
+        android:id="@+id/empty_image"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src="@drawable/ic_confused_bunny" />
+
+    <TextView
+        android:id="@+id/tvEmptyMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/empty_layout_fav_text"
+        android:textColor="@color/grey" />
+</LinearLayout>
